@@ -105,12 +105,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Advaith U | Home</title>
+        <title>Advaith| Home</title>
         <meta name="title" content="Advaith U | Home" />
         <meta name="author" content="Advaith U" />
         <meta
           name="description"
-          content="Advaith is the India Regional Lead of Friends of Figma communities. He is a developer and community builder, who has a keen interest in product and growth strategy."
+          content="Advaith, hobbyist developer and community builder, who has a keen interest in product and growth strategy."
         />
         <meta
           name="keywords"
@@ -138,10 +138,10 @@ export default function Home() {
         <meta property="twitter:image" content="/advaith.JPG" />
 
         {/* Favicon */}
-        <link rel="icon" href="/advaith.JPG" type="image/jpeg" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/advaith.JPG" />
-        <link rel="icon" type="image/jpeg" sizes="32x32" href="/advaith.JPG" />
-        <link rel="icon" type="image/jpeg" sizes="16x16" href="/advaith.JPG" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
 
