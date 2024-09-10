@@ -182,13 +182,13 @@ export default function Home() {
 
           <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-white">
             <div className="container px-4 md:px-6 max-w-screen-lg mx-auto">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">👋 About Me</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-black">👋 About Me</h2>
               <div className="space-y-4 text-gray-700 md:text-lg">
                 <p>
                   I am an engineer by degree but a <a href="https://fs.blog/generalized-specialist/#:~:text=A%20generalizing%20specialist%20has%20a,and%20a%20few%20shallow%20ones." className="text-custom-coral font-semibold">generalized specialist</a> in work. I took a break at the start of the year to learn more about the non-engineering aspects of a business, and that's when I joined Stoa's General Management Program, it helped me acquire strong business fundamentals. Right now, I am looking for the next step in my career.
                 </p>
-                <h3 className="text-2xl font-semibold">A bit about the way I think and operate:</h3>
-                <ul className="list-disc pl-5 space-y-2">
+                <h3 className="text-2xl font-semibold text-black">A bit about the way I think and operate:</h3>
+                <ul className="list-disc pl-5 space-y-2 text-gray-700">
                   <li>Whatever I am working on, the <span className="font-semibold">'why'</span> is very important to me, that keeps me going</li>
                   <li>I like to take ownership of things from <span className="font-semibold">0 → 1</span> and love to work together in a team</li>
                   <li>I am a quick learner and go getter (<a href="https://www.linkedin.com/in/nadiahussain/" className="text-custom-coral font-semibold">Nadia</a> can vouch for this)</li>
@@ -197,8 +197,8 @@ export default function Home() {
               </div>
               
               <div className="mt-12">
-                <h3 className="text-2xl font-semibold mb-4">Notable Achievements</h3>
-                <ul className="space-y-4 list-disc pl-5">
+                <h3 className="text-2xl font-semibold mb-4 text-black">Notable Achievements</h3>
+                <ul className="space-y-4 list-disc pl-5 text-gray-700">
                   <li>
                     Scaled the <a href="https://friends.figma.com/" target="_blank" rel="noopener noreferrer" className="text-custom-coral font-semibold hover:underline">friends of figma program</a> to 4x in India in 2 years, solving challenges during COVID times.
                   </li>
@@ -218,7 +218,7 @@ export default function Home() {
               </div>
               
               <div className="mt-16">
-                <h3 className="text-2xl font-semibold mb-6 text-center">Previously worked at</h3>
+                <h3 className="text-2xl font-semibold mb-6 text-center text-black">Previously worked at</h3>
                 <div className="flex justify-center items-center space-x-8">
                   {previousWorkplaces.map((workplace, index) => (
                     <a 
