@@ -105,12 +105,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Advaith| Home</title>
+        <title>Advaith U | Home</title>
         <meta name="title" content="Advaith U | Home" />
         <meta name="author" content="Advaith U" />
         <meta
           name="description"
-          content="Advaith, hobbyist developer and community builder, who has a keen interest in product and growth strategy."
+          content="Advaith is the India Regional Lead of Friends of Figma communities. He is a developer and community builder, who has a keen interest in product and growth strategy."
         />
         <meta
           name="keywords"
@@ -258,10 +258,10 @@ export default function Home() {
                     key={index} 
                     className="group relative rounded-lg border bg-white p-6 hover:border-gray-300 transition-all shadow-lg hover:shadow-xl"
                   >
-                    <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                    <h3 className="text-xl font-semibold mb-2 text-black">{project.title}</h3>
                     <p className="text-gray-600 mb-4">{project.description}</p>
                     <div className="mb-4">
-                      <span className="font-semibold">Current Stage:</span>
+                      <span className="font-semibold text-black">Current Stage:</span>
                       <p className="text-gray-600">{project.stage}</p>
                     </div>
                     {project.link && (
@@ -283,7 +283,7 @@ export default function Home() {
 
           <section id="cta" className="w-full py-12 md:py-24 lg:py-32 bg-white">
             <div className="container px-4 md:px-6 max-w-screen-lg mx-auto">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center">Need help with building your community?</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center text-black">Need help with building your community?</h2>
               <div className="space-y-4 text-gray-700 md:text-lg text-center">
                 <p>
                   If you're a founder who needs help with building community, content and operations, reach out to us!
@@ -301,7 +301,7 @@ export default function Home() {
               </div>
 
               <div className="mt-16">
-                <h3 className="text-2xl font-semibold mb-6 text-center">Previous Consulting Clients</h3>
+                <h3 className="text-2xl font-semibold mb-6 text-center text-black">Previous Consulting Clients</h3>
                 <div className="flex justify-center items-center space-x-8">
                   {consultingClients.map((client, index) => (
                     <a 
@@ -368,7 +368,7 @@ export default function Home() {
                           className="rounded-md"
                         />
                       </div>
-                      <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                      <h3 className="text-xl font-semibold mb-2 text-black">{project.title}</h3>
                       <div className="flex flex-wrap gap-2 mb-4">
                         {project.tags.map((tag, tagIndex) => (
                           <span
@@ -392,7 +392,7 @@ export default function Home() {
                 ) : (
                   codingProjects.map((project) => (
                     <div key={project.id} className="group relative rounded-lg border bg-white p-6 hover:border-gray-300 transition-all shadow-lg hover:shadow-xl">
-                      <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                      <h3 className="text-xl font-semibold mb-2 text-black">{project.title}</h3>
                       <p className="text-gray-600 mb-4">{project.description}</p>
                       {project.usedAI && (
                         <span className="inline-block bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">
@@ -427,7 +427,7 @@ export default function Home() {
 
           <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-white">
             <div className="container px-4 md:px-6 mx-auto max-w-6xl">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center">Get in Touch</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center text-black">Get in Touch</h2>
               <p className="text-gray-500 md:text-xl mb-8 text-center">
                 Feel free to reach out if you want to collaborate on a project, have any questions, or just want to connect.
               </p>
@@ -438,7 +438,7 @@ export default function Home() {
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-100 hover:bg-custom-coral hover:text-white transition-colors duration-300"
+                    className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-100 text-gray-600 hover:bg-custom-coral hover:text-white transition-colors duration-300"
                     aria-label={link.label}
                   >
                     <link.icon className="w-6 h-6" />
@@ -452,11 +452,11 @@ export default function Home() {
           <div className="container px-4 md:px-6 flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-gray-600">© 2024 Advaith. All rights reserved.</p>
             <nav className="flex gap-4 sm:gap-6 mt-4 md:mt-0">
-              <Link className="text-sm hover:text-custom-coral transition-colors" href="/journey">
+              <Link className="text-sm text-gray-600 hover:text-custom-coral transition-colors" href="/journey">
                 Journey
               </Link>
               <a 
-                className="text-sm hover:text-custom-coral transition-colors" 
+                className="text-sm text-gray-600 hover:text-custom-coral transition-colors" 
                 href="https://youtube.com/@kuriouskathakal"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -464,7 +464,7 @@ export default function Home() {
                 Podcast
               </a>
               <a 
-                className="text-sm hover:text-custom-coral transition-colors" 
+                className="text-sm text-gray-600 hover:text-custom-coral transition-colors" 
                 href="https://advaithu.substack.com"
                 target="_blank"
                 rel="noopener noreferrer"
