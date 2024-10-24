@@ -65,8 +65,8 @@ export default function Workspace() {
               alt="Desk setup"
               width={800}
               height={500}
-              className="w-full h-auto"
-              style={{ aspectRatio: "800/500", objectFit: "cover" }}
+              className="w-full h-auto rounded-lg"
+              style={{ objectFit: "cover" }}
             />
           </section>
           <section className="space-y-4">

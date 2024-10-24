@@ -4,8 +4,9 @@ import { Typography, Link } from '@mui/material';
 
 const JourneyTimeline = () => {
   const journeyEvents = [
-    { date: "September 2024", text: "On a curious pursuit!" },
-    { date: "May 2024", text: <>Launched a podcast, <Link href="https://bio.link/kurious" target="_blank" rel="noopener noreferrer">'kurious kathakal'</Link>, to share stories of amazing individuals in tech from Kerala.</> },
+    { date: "Now", text: "On a curious pursuit!" },
+    { date: "October 2024", text: <>Launched a newsletter, <Link href="https://kuriousjobs.substack.com" target="_blank" rel="noopener noreferrer">'kurious opportunities'</Link>, to share curated opportunities every wednesday.</> },
+    { date: "May 2024", text: <>Launched a podcast, <Link href="https://kuriouskathakal.com" target="_blank" rel="noopener noreferrer">'kurious kathakal'</Link>, to share stories of amazing individuals in tech from Kerala.</> },
     { date: "January 2024", text: <>Joined <Link href="https://www.stoaschool.com/" target="_blank" rel="noopener noreferrer">Stoa's alt MBA</Link> to learn more about business fundamentals.</> },
     { date: "December 2023", text: "Departed from Figma after a fulfilling journey, despite the mishaps during the Adobe acquisition fiasco, to explore what's next?" },
     { date: "November 2023", text: <>Consulted for friends at <Link href="https://hoppscotch.com/" target="_blank" rel="noopener noreferrer">Hoppscotch</Link> on community building, marketing, and DevRel setup.</> },

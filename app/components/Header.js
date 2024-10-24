@@ -14,6 +14,7 @@ export default function Header() {
     { href: '/journey', label: 'Journey' },
     { href: 'https://youtube.com/@kuriouskathakal', label: 'Podcast', external: true },
     { href: 'https://advaithu.substack.com', label: 'Notes', external: true },
+    { href: '/blog', label: 'Blog' },
   ]
 
   return (
