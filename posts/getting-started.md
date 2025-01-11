@@ -1,9 +1,9 @@
 ---
-title: 'publishing soon'
-date: 'Oct 24, 2024'
-description: 'it's time for some articles'
+title: 'Your Title Here'
+date: '2024-03-12'
 tags: ['technical', 'how-to']
+excerpt: 'Your excerpt here'
 ---
 
-I have a bunch of blogs I have written on which are in my notion drafts, thought to publish it soon
+Your content here...
 

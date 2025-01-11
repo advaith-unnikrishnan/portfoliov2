@@ -73,13 +73,13 @@ export default function Home() {
     {
       title: "Kurious Kathakal",
       description: "A podcast sharing the fascinating journeys of tech professionals from Kerala.",
-      stage: "Three episodes released, with improvements made after each one.",
+      stage: "On hold due to some technical issue, three episodes are out!",
       link: "https://bio.link/kurious"
     },
     {
       title: "Kurious Jobs",
       description: "Sharing a wide array of opportunities I encounter, intending to make them accessible to a broader audience, primarily focusing on startup roles.",
-      stage: "Setting up, in collaboration with my friend Kiran.",
+      stage: "8 editions are out, ",
       link: "https://kuriousjobs.substack.com/"
     }
   ];
