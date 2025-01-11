@@ -23,10 +23,10 @@ export default function Workspace() {
         { name: "VS Code", description: "soon to be replaced by cursor", link: "https://code.visualstudio.com/" },
         { name: "Notion", description: "Notetaking", link: "https://www.notion.so/" },
         { name: "Raycast", description: "simply the best, loved this one", link: "https://www.raycast.com/" },
-        { name: "Amie", description: "todo & calendar in one, just what i needed", link: "https://amie.so/" },
-        { name: "Cal.com", description: "for scheduling", link: "https://cal.com/" },
+        { name: "Cal.com", description: "for scheduling", link: "https://refer.cal.com/iamadvaith" },
         { name: "Loom", description: "for async communication, helps a ton while working remotely", link: "https://www.loom.com/" },
         { name: "Airtable", description: "you know why", link: "https://www.airtable.com/" },
+        { name: "Dub.co", description: "url shortner of choice, good analytics", link: "https://dub.co/"},
       ]
     },
     {
@@ -48,6 +48,9 @@ export default function Workspace() {
       items: [
         { name: "Cursor", description: "loving it so far, the code generation is pretty good", link: "https://www.cursor.com/" },
         { name: "Warp", description: "playing around, loving it so far", link: "https://www.warp.dev/" },
+        { name: "Perplexity", description: "search engine and for research", link: "https://perplexity.ai/"},
+        { name: "ChatGPT", description:"for general ai purpose", link: "https://chatgpt.com/"},
+        { name: "Voicenotes", description:"to record thoughts and much more", link: "https://voicenotes.com"}
       ]
     },
   ];

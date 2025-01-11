@@ -291,7 +291,7 @@ export default function Home() {
               </div>
               <div className="mt-8 text-center">
                 <a 
-                  href="https://cal.com/iamdavaith/consulting-discovery-call" 
+                  href="https://cal.com/iamadvaith/consulting-discovery-call" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-8 py-3 bg-custom-coral text-white font-semibold rounded-full hover:bg-opacity-90 transition duration-300 ease-in-out transform hover:scale-105"
