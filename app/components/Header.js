@@ -14,7 +14,7 @@ export default function Header() {
     { href: '/journey', label: 'Journey' },
     { href: 'https://youtube.com/@kuriouskathakal', label: 'Podcast', external: true },
     { href: 'https://advaithu.substack.com', label: 'Notes', external: true },
-    // { href: '/blog', label: 'Blog' },
+    { href: '/blog', label: 'Blog' },
   ]
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white shadow-md">
