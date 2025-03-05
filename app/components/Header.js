@@ -16,7 +16,6 @@ export default function Header() {
     { href: 'https://advaithu.substack.com', label: 'Notes', external: true },
     // { href: '/blog', label: 'Blog' },
   ]
-
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white shadow-md">
       <div className="container mx-auto px-4 flex h-14 items-center justify-end">

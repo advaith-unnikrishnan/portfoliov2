@@ -10,7 +10,7 @@ export default function BlogLayout({ children }) {
       </main>
       <footer className="w-full py-6 bg-white shadow-md">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-sm text-gray-600">© 2024 Advaith. All rights reserved.</p>
+          <p className="text-sm text-gray-600">© 2025 Advaith. All rights reserved.</p>
         </div>
       </footer>
     </div>
