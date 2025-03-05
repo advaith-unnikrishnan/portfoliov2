@@ -32,7 +32,7 @@ I kept talking to people I looked up to, hoping someone would give me the clarit
 
 What kept me going through those dark days were the people around me. My brothers [Aravind](https://www.linkedin.com/in/aravind1444/) and [Rahul](https://bento.me/rjnrdhn) were always there on the other side of the phone — reminding me that it's okay to feel lost and helping me bounce off ideas even when I didn't believe in them myself. Constant conversations with Rahul made me realize that even if there were no tangible outputs, I was still learning, still making progress.
 
-[Riya](https://rmathew.in/), [Kiran](https://kirn.sh/), Nihal, and so many others played a huge role in keeping me sane and pushing me forward. Most importantly my parents didn't question my choices and they were always with me, damn grateful have this people in my life 😇
+[Riya](https://rmathew.in/), [Kiran](https://kirn.sh/), [Nihal](https://www.linkedin.com/in/nihal-rajeev-sainudeen-786117245/), [Akhilesh](https://wiki.akhileshg.com/) and so many others played a huge role in keeping me sane and pushing me forward. Most importantly my parents didn't question my choices and they were always with me, damn grateful have this people in my life 😇
 
 ### Experiments That Didn't Take Off 📉
 
