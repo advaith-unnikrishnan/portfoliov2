@@ -3,7 +3,7 @@ import Home from './components/home/page'
 export const metadata = {
   openGraph: {
     title: "Advaith's Portfolio",
-    description: "Advaith is the India Regional Lead of Friends of Figma communities. He is a developer and community builder, who has a keen interest in product and growth strategy.",
+    description: "on a curious pursuit",
     url: 'https://advaith.co',
     siteName: "Advaith's Portfolio",
     images: [
