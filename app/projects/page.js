@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { FaExternalLinkAlt, FaYoutube } from 'react-icons/fa'
-import { BsSubstack } from "react-icons/bs"
+import { BsSubstack, BsGithub } from "react-icons/bs"
 import ProjectCard from '../components/ProjectCard'
 
 const projects = [
@@ -82,6 +82,18 @@ export default function Projects() {
           {projects.map((project, index) => (
             <ProjectCard key={index} project={project} />
           ))}
+        </div>
+
+        <div className="mt-12 text-center">
+          <Link 
+            href="https://github.com/advaith-unnikrishnan"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-6 py-3 bg-custom-coral text-white rounded-lg hover:bg-custom-coral-dark transition-colors duration-300"
+          >
+            <BsGithub className="mr-2" />
+            View My Past Projects
+          </Link>
         </div>
       </div>
     </div>
