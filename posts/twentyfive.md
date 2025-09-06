@@ -1,7 +1,7 @@
 ---
 title: 'Looking back at a pit stop - turning 25!'
 # date: '2024-03-12'
-tags: ['personal']
+# tags: ['personal']
 excerpt: 'Career break, ups and downs, unlearning & reinvention'
 ---
 
