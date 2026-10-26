@@ -16,10 +16,10 @@ const matrixColumns = [
 
 export const metadata = {
   title: "Advaith's Portfolio | Under Construction",
-  description: "Advaith's portfolio is being updated. Reach out by email for anything urgent.",
+  description: "Hey, I'm Advaith. I invest in early-stage startups at Y0. Working on an interesting idea? Email advaith@y0.co.",
   openGraph: {
     title: "Advaith's Portfolio | Under Construction",
-    description: "Advaith's portfolio is being updated. Reach out by email for anything urgent.",
+    description: "Hey, I'm Advaith. I invest in early-stage startups at Y0. Working on an interesting idea? Email advaith@y0.co.",
     url: 'https://advaith.co',
     siteName: "Advaith's Portfolio",
     images: [
@@ -35,7 +35,7 @@ export const metadata = {
 };
 
 export default function Page() {
-  const email = 'mail@advaith.co';
+  const email = 'advaith@y0.co';
 
   return (
     <main className="min-h-screen bg-[#04110f] text-[#f3fff9]">
@@ -70,14 +70,14 @@ export default function Page() {
         <div className="relative z-10 mx-auto flex w-full max-w-5xl flex-col gap-12 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-3xl">
             <p className="mb-5 text-sm font-semibold uppercase tracking-[0.28em] text-[#73ffd4]">
-              Portfolio update in progress
+              Site under construction
             </p>
             <h1 className="text-5xl font-semibold leading-none tracking-normal text-[#f3fff9] sm:text-6xl md:text-7xl">
-              Site under construction.
+              Hey, I&apos;m Advaith.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-[#b5c9c1] sm:text-xl">
-              I am refreshing this portfolio and will have the new version live soon.
-              If something is urgent, feel free to reach out by email.
+              I invest in early-stage startups at Y0. If you&apos;re working on an
+              interesting idea, drop me an email at {email}.
             </p>
           </div>
 
