@@ -3,7 +3,7 @@ import SiteFrame from "../components/home/SiteFrame";
 import Image from "next/image";
 import Link from "next/link";
 import TrackedLink from "../components/home/TrackedLink";
-import { siteConfig as c, socialLinks } from "../content/site";
+import { emailLink, siteConfig as c, socialLinks } from "../content/site";
 export const metadata = { alternates: { canonical: "/" } };
 
 export default function Page() {
@@ -45,6 +45,18 @@ export default function Page() {
               apply for funding <ArrowUpRight size={17} aria-hidden="true" />
             </TrackedLink>
           </div>
+          <p className="home-feedback">
+            Even if y0 funding isn’t a fit, I’m happy to give early feedback on
+            your product, idea, or pitch deck. Write to me at{" "}
+            <TrackedLink
+              href={emailLink(c.contact.personalEmail)}
+              id="home_feedback_email"
+              kind="email"
+            >
+              {c.contact.personalEmail}
+            </TrackedLink>
+            .
+          </p>
           <section className="home-writing" aria-labelledby="writing-title">
             <h2 id="writing-title">writing</h2>
             <Link href="/blog">blog</Link>

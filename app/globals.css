@@ -1297,6 +1297,16 @@ button {
   background: var(--surface);
   border-color: var(--ink);
 }
+.portfolio-intro .home-feedback {
+  max-width: 37ch;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.home-feedback a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
 .home-writing {
   display: flex;
   align-items: center;
