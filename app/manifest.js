@@ -1,23 +1,13 @@
+import { siteConfig as c } from "../content/site";
 export default function manifest() {
   return {
-    name: "Advaith's Portfolio",
-    short_name: 'Advaith',
-    description: 'Portfolio website of Advaith',
-    start_url: '/',
-    display: 'standalone',
-    background_color: '#ffffff',
-    theme_color: '#000000',
-    icons: [
-      {
-        src: '/app/android-chrome-192x192.png',
-        sizes: '192x192',
-        type: 'image/png',
-      },
-      {
-        src: '/app/android-chrome-512x512.png',
-        sizes: '512x512',
-        type: 'image/png',
-      },
-    ],
+    name: c.site.name,
+    short_name: c.site.name,
+    description: c.site.description,
+    start_url: "/",
+    display: "standalone",
+    background_color: "#f6f3eb",
+    theme_color: "#2445d8",
+    icons: [{ src: "/favicon.ico", sizes: "48x48", type: "image/x-icon" }],
   };
 }

@@ -1,0 +1,27 @@
+export const publicPages = [
+  "/",
+  "/about",
+  "/journey",
+  "/workspace",
+  "/projects",
+  "/blog",
+  "/blog/twentyfive",
+  "/blog/lookingbackatdsc",
+];
+export const publicAssets = [
+  "/advaith.JPG",
+  "/portrait-sketch.jpg",
+  "/images/workspace.png",
+  "/images/logos/y0.svg",
+  "/images/logos/figma.svg",
+  "/images/logos/tinkerhub.svg",
+  "/images/logos/hoppscotch.svg",
+  "/images/logos/jigsawstack.svg",
+  "/images/logos/othor.svg",
+  "/favicon.ico",
+  "/apple-touch-icon.png",
+  "/robots.txt",
+  "/sitemap.xml",
+  "/manifest.webmanifest",
+  "/opengraph-image",
+];
